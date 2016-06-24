@@ -11,7 +11,7 @@ class dc_depman::maven::install {
 
   file_line { 'm2_home':
     path => '/etc/bashrc',
-    line => 'export M2_HOME=/opt/apache-maven-3.3.9'
+    line => 'export M2_HOME=/opt/apache-maven-3.0.4'
   }
 
   file_line { 'm2_home_path':
