@@ -1,29 +1,31 @@
 {
-  "author": "eduardodicarte",
-  "dependencies": [
-			{"name":"puppetlabs/stdlib","version_requirement":">=4.12.0"},
-			{"name":"puppet/archive,"version_requirement":">=1.1.1"}]
-		  ],
-  "license": "MIT",
-  "name": "eduardodicarte-dc_depman",
-  "operatingsystem_support": 
-	[{
-      		"operatingsystem": "CentOS",
-	        "operatingsystemrelease": [
-                   "7"
-                 ]
+	"author": "eduardodicarte",
+	"dependencies": [{
+		"name": "puppetlabs/stdlib",
+		"version_requirement": ">=4.12.0"
+	}, {
+		"name": "puppet/archive",
+		"version_requirement": " >= 1.1 .1 "
+	}],
+	"license": "MIT",
+	"name": "eduardodicarte-dc_depman",
+	"operatingsystem_support": [{
+		"operatingsystem": "CentOS",
+		"operatingsystemrelease": [
+			"7"
+		]
 	}],
 
-  "project_page": "https://github.com/eduardodicarte/dc_depman",
-  "requirements": [
- 	{
-      		"name": "puppet",
- 	     	"version_requirement": ">= 4.2.1"
-	}
-		
-   ],
-  "source": "git://github.com/eduardodicarte/dc_depman.git",
-  "summary": "Modulo para gerenciamento de servidores de build",
-  "tags": [maven,nexus],
-  "version": "0.0.1"
+	"project_page": "https://github.com/eduardodicarte/dc_depman",
+	"requirements": [{
+			"name": "puppet",
+			"version_requirement": ">= 4.2.1"
+		}
+
+	],
+	"source": "git://github.com/eduardodicarte/dc_depman.git",
+	"summary": "Modulo para gerenciamento de servidores de build",
+	"tags": ["maven", "nexus"],
+	"version": "0.0.1"
 }
+
